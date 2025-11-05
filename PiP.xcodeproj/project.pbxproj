@@ -29,9 +29,22 @@
 		1AC4B4FC2EBB89A40044CE3A /* PiPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1AC4B5122EBB9BBB0044CE3A /* Exceptions for "PiP" folder in "PiP" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1AC4B4E42EBB89A30044CE3A /* PiP */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1AC4B4E72EBB89A30044CE3A /* PiP */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1AC4B5122EBB9BBB0044CE3A /* Exceptions for "PiP" folder in "PiP" target */,
+			);
 			path = PiP;
 			sourceTree = "<group>";
 		};
@@ -43,6 +56,11 @@
 		1AC4B4FF2EBB89A40044CE3A /* PiPUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PiPUITests;
+			sourceTree = "<group>";
+		};
+		1AC4B5132EBB9F770044CE3A /* Video */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +93,7 @@
 		1AC4B4DC2EBB89A30044CE3A = {
 			isa = PBXGroup;
 			children = (
+				1AC4B5132EBB9F770044CE3A /* Video */,
 				1AC4B4E72EBB89A30044CE3A /* PiP */,
 				1AC4B4F52EBB89A40044CE3A /* PiPTests */,
 				1AC4B4FF2EBB89A40044CE3A /* PiPUITests */,
@@ -109,6 +128,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				1AC4B4E72EBB89A30044CE3A /* PiP */,
+				1AC4B5132EBB9F770044CE3A /* Video */,
 			);
 			name = PiP;
 			packageProductDependencies = (
@@ -395,8 +415,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABY8FB74YF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PiP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -426,8 +448,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABY8FB74YF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PiP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
